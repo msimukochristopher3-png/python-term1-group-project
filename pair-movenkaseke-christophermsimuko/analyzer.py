@@ -15,3 +15,10 @@ if num % 2 == 0:
     print(f"{num} is even.")
 else:
     print(f"{num} is odd.")
+# Determine sign (positive, negative, or zero)
+if num > 0:
+    print(f"{num} is positive.")
+elif num < 0:
+    print(f"{num} is negative.")
+else:
+    print(f"{num} is zero (neither positive nor negative).")
