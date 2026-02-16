@@ -10,4 +10,8 @@ def number_analyzer():
             break  # exit loop if conversion succeeded
         except ValueError:
             print("Invalid input! Please enter a whole number.")
-
+# Check even or odd
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
