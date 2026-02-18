@@ -31,3 +31,5 @@ def word_counter():
     print(f"\nNumber of words: {num_words}")
     print(f"Number of characters (excluding spaces): {num_chars}")
     print(f"Longest word: {longest_word}")
+if __name__ == "__main__":
+    word_counter()
