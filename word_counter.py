@@ -8,3 +8,5 @@ sentence = input("Enter a sentence: ").strip()
 if not sentence:
     print("No sentence entered. Exiting.")
     return
+# Find the longest word
+longest_word = max(words, key=len) if words else ""
